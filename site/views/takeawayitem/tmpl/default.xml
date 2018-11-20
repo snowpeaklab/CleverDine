@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_cleverdine_TAKEAWAYITEM_VIEW_DEFAULT_TITLE">
+		<message>COM_cleverdine_TAKEAWAYITEM_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Take-away Item" >
+		<message><![CDATA[cleverdine]]></message>
+	</view>
+	<state>
+		<name>Takeaway Item</name>
+		<description>cleverdine</description>
+	</state>
+	<fields name="request" >
+		<fieldset name="request" addfieldpath="/administrator/components/com_cleverdine/fields">
+			<field name="takeaway_item" type="vrtkitem" label="COM_cleverdine_TKITEM_FIELD_SELECT_TITLE" required="true" description="COM_cleverdine_TKITEM_FIELD_SELECT_TITLE" />
+		</fieldset>
+	</fields>
+</metadata>

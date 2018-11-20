@@ -1,0 +1,60 @@
+/* Joomla 3.x */
+
+.icon-restaurants:before {
+	content: "\63";
+}
+
+input, select {
+	width: auto !important;
+}
+table.adminform label {
+	display: inline;
+	margin:0 0 0 5px;
+}
+table.adminform td {
+	padding: 6px 0;
+}
+table.adminform div.input-append {
+	display: inline;
+}
+
+table.table-striped i.empty {
+	margin-right: 16px;
+}
+
+.vr-toolbar-setfont {
+	font-size: 13px !important;
+}
+
+.form-horizontal .control-html-value {
+	float: left;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.field-calendar {
+	display: inline-block;
+}
+
+/* colorpicker 3.x */
+
+.colorpicker input {
+	background-color: transparent !important;
+	border: 0 !important;
+	font-size: 11px !important;
+	color: #eee !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* customers locations legend */
+
+.vr-delivery-locations-container legend {
+	cursor: pointer;
+}
+
+/* stocks overview select2 margin bottom */
+
+.vr-stockfactor-sel {
+	margin-bottom: 9px !important;
+}

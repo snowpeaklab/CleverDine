@@ -1,0 +1,1 @@
+UPDATE `#__cleverdine_config` SET `setting`='1.7.1' WHERE `param`='version' LIMIT 1;

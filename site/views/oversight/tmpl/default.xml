@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_cleverdine_OVERSIGHT_VIEW_DEFAULT_TITLE">
+		<message>COM_cleverdine_OVERSIGHT_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Tables Overview" >
+		<message><![CDATA[cleverdine]]></message>
+	</view>
+	<state>
+		<name>Tables Overview</name>
+		<description>cleverdine</description>
+	</state>
+</metadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_cleverdine_MENUDETAILS_VIEW_DEFAULT_TITLE">
+		<message>COM_cleverdine_MENUDETAILS_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<view title="Menu Details" >
+		<message><![CDATA[cleverdine]]></message>
+	</view>
+	<state>
+		<name>Menu Details</name>
+		<description>cleverdine</description>
+	</state>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_cleverdine/fields">
+			<field name="id" type="vrmenu" label="COM_cleverdine_MENU_FIELD_SELECT_TITLE" required="true" description="COM_cleverdine_MENU_FIELD_SELECT_TITLE_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

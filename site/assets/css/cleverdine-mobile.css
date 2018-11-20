@@ -1,0 +1,508 @@
+@media screen and (max-width : 876px) {	
+	.vrformfieldset .vrsearchinputlabel, .vrordercomponentsdiv .vrorderinputdiv .vrorderlabel {
+		min-width: 23%;
+	}
+	.vrsearchentryinput input, .vrtkdatetimeinput input {
+		min-width: 100px;
+	}
+	.vrformfieldset .vrsearchinputlabel, .vrordercomponentsdiv .vrorderinputdiv .vrorderlabel {
+		margin: 7px 15px 5px 0;
+	}
+	.vryourtablediv {
+		margin: 15px 0;
+	}
+	.vrstepbardiv > div {
+    	width: 30%;
+	}
+	.vrtkitemsdiv .vrtkitemimagediv {
+		margin-right: 15px;
+	}
+	.vrtkitemsdiv .vrtkiteminfodiv span {
+		padding: 2px 15px 2px 0;
+	}
+	.vrtkitemsdiv .vrtkitemvardiv {
+		width: 100%;
+	}
+	.vrtksingleitemdiv .vrtkitemleftdiv {
+		width: 100%;
+	}
+	.vr-allorders-switch-tabs {
+		width: 100%;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-view-button a {
+		display: inline-block;
+	}
+	.vr-reviews-toolbar {
+		height: auto;
+		width: 100%;
+		display: inline-block;
+	}
+	.vr-reviews-toolbar .rv-toolbar-field {
+		width: 100%;
+		float: none;
+		margin: 5px 0;
+	}
+	.vr-reviews-quicklist .no-review {
+		margin-top: 10px;
+	}
+	.vr-incoming-table td, .takeaway-list th, .takeaway-list td {
+		min-width: 125px;
+		padding: 5px;
+	}
+	.vroversight-reservations-titleshead > span, .vroversight-reservation-row > span {
+		width: 130px;
+	}
+	.vroversight-reservations-content {
+		overflow: hidden;
+		overflow-x: scroll;
+	}
+	.vroversight-reservations-list {
+		width: 1000px;
+	}
+}
+
+@media screen and (max-width : 768px) {
+	.vrtkdeliveryservicediv {
+		margin-left: 0;
+	}
+	.vrstepbardiv > div {
+		width: 32%;
+	}
+	.vrsearchmenudetails {
+		width: 48%;
+	}
+	.vrsearchentryinput input, .vrtkdatetimeinput input {
+		width: 90%;
+	}
+	.vrformfieldset {
+		width: 100%;
+	}
+	#vrsearchinputdiv {
+		margin: 5px 0;
+	}
+	#vrsearchinputdiv > div {
+		float: left;
+		margin: 4px 2px;
+		display: inline-block;
+	}
+	#vrselectedroomdiv select,
+	#vrsearchinputdiv select {
+		padding: 9px 5px;
+		font-size: 15px;
+	}
+	#vrsearchinputdiv input, #vrsearchinputdiv input {
+		padding: 9px 5px;
+		font-size: 15px;
+	}
+	#vrsubmitfinddiv input {
+		padding: 6px 21px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.vrmenuslistcont .vrmenublock {
+		width: 48%;
+	}
+	.vrmenu-detailshead {
+		padding: 22px 0;
+	}
+	.vrmenu-detailslist {
+		padding: 0 10px;
+	}
+	.vroversight-reservations-block {
+		width: 96%;
+	}
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-cart-summary-inner {
+		width: 60%;
+		transform:translateX(0%);
+		margin: 0 auto;
+	}
+	.vroversight-reservations-titleshead > span, .vroversight-reservation-row > span {
+		min-width: 150px;
+		padding: 5px;
+	}
+}
+@media screen and (max-width : 670px) {	
+	input.vrsearchsubmit, input.vrresultbookbutton, .vrresultfalsehintdiv a, .vrresultbookbuttonfind, .vrresultbookbuttoncontinue, #vrconfcontinuebutton, input.vrordersubmit {
+		float: none;
+		text-align: center;
+	}
+	.vrbookcontinuebuttoncont {
+		text-align: center;
+	}
+	.vrstepbardiv > div {
+		width: 28%;
+	}
+	.vrstepbardiv .vrstep-inner {
+		padding: 20px 20px 20px 40px;
+	}
+	.vrstepbardiv > div:first-child .vrstep-inner {
+		padding: 20px 20px 20px 30px;
+	}
+	.vrstepbardiv > div .vrstepsubtitle {
+		display: none;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubleft {
+		width: 100%;
+		float: none;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubright {
+		width: 100%;
+		max-width: inherit;
+		float: none;
+	}
+	.vrmenu-detailsprodsubprice {
+		display: block;
+		margin: 10px 19px 0 0;
+		text-align: right;
+	}
+	.vrmenu-detailsprod-optionslist {
+		display: inline-block;
+		padding: 0;
+		width: 94%;
+		margin: 10px 0 0;
+	}
+	.vrtk-dealsmod-nav label {
+		width: auto !important;
+	}
+	.vrtk-dealsmod-slide {
+		width: 94% !important;
+	}
+	.vrtk-dealsmod-slides {
+		width: 93% !important;
+	}
+	.vrtk-dealsmod-nav label {
+		line-height: 60px !important;
+	}
+	.vrtk-dealsmod-nav-dots {
+		width: 95% !important;	
+	}
+	.vrtk-additem-groups-container .vrtk-additem-group-box {
+		width: 100%;
+		float: none;
+	}
+	.vrtk-additem-notes-box {
+		width: 99%;
+		margin: 0 0 5px 0;
+	}
+	.vrtk-additem-tcost-box {
+		min-width: inherit;
+		width: 99%;
+		padding: 0;
+		text-align: center;
+
+	}
+	.vrtk-group-multiple {
+		width: 100%;
+		margin: 3px 0;
+	}
+	.vr-allorders-singlerow > span {
+		width: 100% !important;
+	}
+	.vr-livemap-rcont {
+		float: none;
+		margin: 0 0 15px;
+		text-align: right;
+	}
+	.vr-livemap-modal {
+		text-align: left;
+	}
+	.vroversight-nowlink-div a {
+		padding: 8px 0 !important;
+	}
+	.vr-dash-roomblock {
+		width: 94%;
+	}
+	.vrfront-manage-actionsdiv > div {
+		display: block;
+		float: none;
+		margin: 5px 0;
+	}
+	.vrtkitemsdiv .vrtkitemvardiv {
+		width: 100%;
+	}
+	.tk-cart-summary-inner .tk-add-cart {
+		width: 60%;
+	}
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-ordernow {
+		width: 60%;
+	}
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-cart-summary-inner .tk-price {
+		margin: 0 0 10px;
+		width: 60%;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-purchase {
+		float: right;
+		width: 36%;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-view-button {
+		width: 100%;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.vr-allorders-switch-tabs .switch-box {
+		padding: 15px 15px;
+	}
+	.vr-allorders-switch-tabs .switch-box:first-child {
+		padding: 15px 15px;
+	}
+	.vr-new-review-wrapper .rv-new-top .rv-new-field {
+		margin-right: 0;
+	}
+	.vr-new-review-wrapper .rv-new-top .rv-new-field:first-child {
+		margin-right: 20px;
+	}
+	.vr-new-review-wrapper .rv-new-field {
+		margin: 5px 0;
+	}
+	.vrfront-menu-block, .vrfront-section-block, .vrfront-product-block {
+		width: 46%;
+	}
+}
+@media screen and (max-device-width : 1024px) { 
+	.vrrescodedialog {
+		left: inherit !important;
+		right: 0 !important;
+		top: 0;
+		height: 100%;
+	}
+}
+@media screen and (max-width : 540px) {
+	.vrcouponcodediv {
+		text-align: center;
+	}
+	.vrcouponcodediv .vrheading3 {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.vrcouponcodediv .vrcouponcodetext {
+		margin-left: 0;
+	}
+	.vrloginfieldsdiv .vrloginsplabel, .vrloginfieldsdiv .vrloginsplabel {
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+		min-width: inherit;
+	}
+	.vrloginblock .vrlogininput, .vrloginspinput .vrinput {
+		margin-left: 0;
+	}
+	.vrloginfield:last-child .vrloginsplabel {
+		display: none;
+	}
+	.vrloginbutton, .vrregisterblock .vrloginspinput .vrbooknow {
+		margin-left: 0;
+	}
+	.orderinfo-label {
+		width: auto;
+		margin-right: 5px;
+	}
+	.vrorderboxcontent {
+		padding: 25px 30px;
+	}
+	.vrfront-editbill-menus, .vrfront-food-summary {
+		width: 100%;
+	}
+}
+@media screen and (max-width : 450px) {
+	.vrmenuslistcont .vrmenublock {
+	    width: 99%;
+	}
+	.vrmenusfieldsdiv {
+		width: 100%;
+	}
+	.vrtkitemsdiv .vrtkitemleftdiv {
+		width: 100%;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-purchase .purchase-price {
+		text-align: left;
+	}
+	.vr-allorders-switch-tabs .switch-box {
+		width: 100%;
+		border-left: 1px solid #ccc;
+	}
+	.vr-allorders-switch-tabs .switch-box:first-child {
+		border-bottom: 0;
+	}
+	.tk-cart-summary-inner .tk-add-cart {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-cart-summary-inner .tk-price,
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-ordernow {
+		width: 100%;
+	}
+	.vrfront-menu-block, .vrfront-section-block, .vrfront-product-block {
+		width: 46%;
+	}
+}
+@media screen and (max-width : 400px) {
+	.vrcouponcodesubmit {
+		margin-left: 0;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-summary {
+		width: 58%;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-purchase {
+		width: auto;
+		padding: 3px 0 0 25px;
+		float: left;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-purchase .purchase-date {
+		text-align: left;
+	}
+	.vr-allorders-tinylist .list-order-bar .order-view-button {
+		width: 100%;
+		text-align: right;
+		padding: 20px 0 0;
+	}
+}
+@media screen and (max-device-width : 400px) { 
+	.vrrescodedialog {
+		left: inherit !important;
+		right: 0 !important;
+		bottom: 0;
+		top: auto;
+		height: 210px;
+		width: 100%;
+	}
+	.vrmenusfieldsdiv div {
+		margin: 5px 0;
+	}
+}
+@media screen and (max-width : 400px) {
+	.vrsearchmenudetails {
+		width: 100%;
+	}
+	.vrcouponcodediv .vrcouponcodetext {
+		width: 85%;
+		margin: 5px 0;
+	}
+	.vrcustomfields .vrinput, .vrordercomponentsdiv .vrorderinput {
+		width: 100%;
+	}
+	.vrcustomfields {
+		width:93%;
+	}
+	.vrmenuslistcont .vrmenublock {
+		width: 100%;
+	}
+	.vrtkitemsdiv .vrtkitemleftdiv {
+		width: 100%;
+	}
+	.vrtkitemsdiv .vrtksingleitemdiv {
+		 border-bottom: 1px dotted #666;
+	}
+	.vrmenu-detailsheadsub .vrmenu-detailsheadsubimage, .vrmenu-detailssectionsubimage {
+		max-width: 100% !important;
+		width: 100%;
+	}
+	.vrmenu-detailsheadsub .vrmenu-detailsheadsubdesc, .vrmenu-detailssectionsub .vrmenu-detailssectionsubdesc {
+		width: 100%;
+		padding: 0;
+	}
+	.vrmenu-sectionsbar > span {
+		margin: 5px 0;
+	}
+	.vrmenu-detailssectionsub {
+		width: 100%;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubleft .vrmenu-detailsprodsubimage {
+		width: 99%;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubleft {
+		width: 100%;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubright {
+		width: 100%;
+	}
+	.vrmenu-detailsprodsubprice {
+		margin: 0;
+	}
+	.vrmenu-detailsprodsub .vrmenu-detailsprodsubleft .vr-menudetailsprodsubnamedesc {
+		padding: 10px 0 0;
+		width: 100%;
+	}
+	.vroversight-reservations-block {
+		width: 90%;
+	}
+	.vroversight-nowlink-div {
+		display: inline-block;
+		width: 100%;
+	}
+	.vroversight-nowlink-div a {
+		width: 100%;
+		padding: 3px 0;
+		text-align: center;
+		font-size: 15px;
+	}
+	.vrtkitemsdiv .vrtksinglevar .vrtkvarfloatrdiv {
+		position: relative;
+		float: right;
+	}
+	.vr-reviews-toolbar .rv-toolbar-field > div {
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width : 450px) {	
+	.vr-toast-wrapper {
+		width: 90% !important;
+	}
+	.vrtkaddmoreitemsdiv {
+    	margin: 5px 0 20px;
+	}
+	.vrcustomfields .vrinput, .vrcustomfields .vrtextarea, .vrcustomfields .cf-bar {
+		width: 225px !important;
+	}
+	.vrcustomfields .cf-bar {}
+}
+@media screen and (max-width : 369px) {	
+	.vrcustomfields div .phone-field .cf-bar {
+		left: 0;
+	}
+	.vrcustomfields div .phone-field .cf-bar::before, .vrcustomfields div .phone-field .cf-bar::after {
+    	bottom: -85px;
+	}
+}
+
+/* takeaway item */
+@media screen and (max-width : 670px) {	
+	.vrtk-itemdet-prod-head {
+		padding-bottom: 5px;
+	}
+	.vrtk-itemdet-prod-head .tk-title {
+		display: block;
+	}
+	.vrtk-itemdet-prod-head .tk-attributes {
+		display: block;
+		margin-left: 0;
+	}
+
+	.vrtk-itemdet-prod-body .tk-left {
+		vertical-align: initial;
+		display: block;
+		width: 100%;
+	}
+	.vrtk-itemdet-prod-body .tk-right {
+		vertical-align: initial;
+		display: block;
+		width: 100%;
+	}
+	.vrtk-itemdet-prod-body .tk-right .tk-cart-summary .tk-cart-summary-inner {
+		width: 100%;
+		transform: translateX(0%);
+	}
+}
+@media screen and (max-width : 320px) {
+	.vr-allorders-switch-tabs {
+		margin-top: 10px;
+		display: inline-block;
+		height: auto;
+	}
+	.vr-new-review-wrapper .rv-new-field .rv-new-field-value #vr-newrating-desc {
+		margin: 4px 0 0 0;
+	}
+	.vrfront-menu-block, .vrfront-section-block, .vrfront-product-block {
+		width: 44%;
+	}
+}

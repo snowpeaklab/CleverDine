@@ -1,0 +1,2631 @@
+.vikpaymentparam {
+	display: block;
+	padding: 2px;
+}
+.vikpaymentparamlabel {
+	display: inline-block;
+	min-width: 130px;
+}
+.vikpaymentparaminput {
+	display: inline-block !important;
+}
+.vikpaymentparamlabelhelp {
+	font-size: smaller;
+	font-style: italic;
+	padding-left: 5px;
+}
+.vrpaymentparam {
+	margin-bottom: 5px;
+}
+
+#vrestfooter {
+	font-size: x-small;
+	text-align: center;
+	clear: both;
+	margin: 5px 0 0 0 !important;	
+	padding-top: 10px;
+}
+
+.vrmenuimagerowpreview {
+	background: url(../images/imagepreview.png) no-repeat;
+	width: 24px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vrrequired {
+	border: 1px solid #900 !important;
+}
+img.vr-opt-flag {
+	height: 16px;
+	width: 16px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+i.fa.big {
+	font-size: 18px;
+	vertical-align: middle;
+}
+i.fa.medium-big {
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.icon-48-restaurants {
+	background: url('./images/icon-48-cleverdine.png') no-repeat;
+}
+.vrmainmenuoutertable {
+	margin: 10px 0;
+}
+
+.vrheadcolactive1{
+	background: url('./images/sortasc.png') right center no-repeat;
+	padding: 0 14px 0 0;
+}
+
+.vrheadcolactive2{
+	background: url('./images/sortdesc.png') right center no-repeat;
+	padding: 0 14px 0 0;
+}
+
+.vrtghost{
+	background: #A1988D;
+	position: absolute;
+	z-index: 0;
+	color:#fff;
+	padding: 10px;
+	
+	filter:alpha(opacity=30); /* IE */
+	-moz-opacity:0.3; /* Mozilla */
+	opacity: 0.3; /* CSS3 */
+}
+
+.vrtalignsel{
+	-moz-box-shadow: inset 0 0 10px #FFCC00;
+	-webkit-box-shadow: inset 0 0 10px #FFCC00;
+	box-shadow: inset 0 0 10px #FFCC00;
+}
+
+#vractiontooltip {
+	padding: 4px 10px;
+	border: 1px solid #00468C; 
+	display: none;
+	margin: 10px 0 5px;
+	color: #00468C;
+	background: #fff;
+	font-size:12px;
+	width: 98%;	
+}
+#vrchangetooltip {
+	padding: 4px 9px; 
+	border: 1px solid #00468C; 
+	border-radius: 3px; 
+	margin: 5px 0 5px;
+	background: #fff;
+	font-size:12px;
+	display: inline-block;
+	display: none;
+	width: 98.2%;
+	height: 24px;
+	line-height: 26px;
+}
+#vrchangetptextsp {
+	overflow: hidden;
+	display: inline-block;
+	color: #00468C;
+}
+#vrchangetpcancsp {
+	font-size: 20px;
+	float: right;
+}
+
+#tcontainer {
+	width: 98%;
+	height: 500px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+#vrtcsizesp {
+	padding: 10px;
+	padding-left: 18px;
+	float: right;
+}
+
+.vrmap-incdec-button {
+	padding: 10px;
+	float: right;
+}
+
+.vrtable{
+	background: #A1988D;
+	width: 90px;
+	height: 90px;
+	cursor: move;
+	text-align: center;
+	position: absolute;
+	z-index: 0;
+	color:#fff;
+	font-weight: bold;
+	padding: 10px;
+}
+.vrtable .vrttitle {
+	font-size: 14px;
+	margin: 0 0 20px;
+}
+.vrtable .vrttitlesmaller {
+	font-size: 12px;
+	margin: 0 0 20px;	
+}
+.vrclosebox{
+	text-align: left;
+	color: #fff;
+	cursor: pointer;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+.vrtable .vractionsdiv {
+	margin: 22px 0 0 0;
+}
+.vrtable .vractionsdiv .vrtoptionlink,
+.vrtable .vractionsdiv .vrtproplink {
+	display: block;
+	margin: 0 0 5px 0;
+}
+.vrtable .vractionsdiv .vrtoptionlink a {
+	color:#fff;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline !important;
+}
+.vrtable .vractionsdiv .vrtproplink a {
+	color:#fff;
+	font-size: 12px;
+	font-weight: bold;
+	display: inline !important;
+}
+
+.vrtomodalbox{
+	background: #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	position: absolute;
+	text-align: left;
+	font-size: 13px;
+	left: 15px;
+	top: 0px;
+	width: 200px;
+	height: 160px;
+	display: none;
+	z-index: 10000;
+	padding: 15px;
+	box-shadow: 3px 2px 7px #000;
+	box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-moz-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	color:#333;
+	cursor: default;
+}
+.vrtpmodalbox{
+	color:#333;
+	padding: 15px;
+	cursor: default;
+	background: #fff;
+	box-shadow: 3px 2px 7px #000;
+	box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-moz-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	position: absolute;
+	text-align: left;
+	font-size: 13px;
+	left: 15px;
+	top: 0px;
+	width: 350px;
+	height: 160px;
+	display: none;
+	z-index: 10000;
+}
+.vrtomodalbox h3,
+.vrtpmodalbox h3 {
+	margin: 0 0 7px 0;
+	padding: 0 0 3px;
+	border-bottom:1px dotted #999;
+	color:#666;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.vromodalboxbuttonsdiv,
+.vrpmodalboxbuttonsdiv {
+	position: absolute;
+	bottom:12px;
+	border-top:1px dotted #999;
+	padding: 3px 0 0 0;
+	text-align: right;
+	font-weight: bold;
+}
+.vromodalboxbuttonsdiv {
+	width: 87%;
+}
+.vrpmodalboxbuttonsdiv {
+	width: 92%;
+}
+.vromodalboxbuttonsdiv .vrocancellink,
+.vrpmodalboxbuttonsdiv .vrpcancellink{
+	color: #333333;
+	text-transform: uppercase;
+	margin: 0 5px 0 0;
+}
+.vromodalboxbuttonsdiv .vroapplylink,
+.vrpmodalboxbuttonsdiv .vrpapplylink {
+	color: #333333;
+	text-transform: uppercase;
+}
+.vrtamodalbox{
+	background: #0099FF;
+	border: 1px solid #B8B7B7;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	position: absolute;
+	text-align: left;
+	font-size: 13px;
+	left: 15px;
+	top: 0px;
+	width: 150px;
+	height: 200px;
+	display: none;
+	z-index: 1000;
+}
+/*
+.vrmainmenuoutertable {
+	margin: 0 0 0 60px;
+}
+*/
+.vrmainmenuoutertable td {
+	padding: 0 55px 0 0;
+}
+.vrmainmenuoutertable td:last-child {
+	padding: 0;
+}
+ 
+#vrmenurestaurantdiv, #vrmenuoperativitysdiv,
+#vrmenubookingdiv, #vrmenuglobaldiv, #vrmenutakeawaydiv {
+	width: 115px;
+	height: 113px;
+	background: #fff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 10px;
+	color:#333;
+}
+#vrmenurestaurantdiv a, #vrmenuoperativitycol a,
+#vrmenubookingcol a, #vrmenuglobalcol a, #vrmenutakeawaycol a {
+	color:#333;
+	text-transform: uppercase;
+	display: block;
+	font-size: 12px;
+	padding: 0 0 5px 5px;
+	text-decoration: none;
+}
+#vrmenurestaurantdiv .vrmenulinkactive,
+#vrmenurestaurantdiv a:hover {
+	color:#AD0447;
+}
+#vrmenuoperativitysdiv .vrmenulinkactive,
+#vrmenuoperativitycol a:hover {
+	color:#FF9700;
+}
+#vrmenubookingdiv .vrmenulinkactive,
+#vrmenubookingcol a:hover {
+	color:#079B00;
+}
+#vrmenuglobaldiv .vrmenulinkactive,
+#vrmenuglobalcol a:hover {
+	color:#2A7FFE;
+}
+#vrmenutakeawaydiv .vrmenulinkactive,
+#vrmenutakeawaycol a:hover {
+	color:#B63535;
+}
+#vrmenurestaurantdiv > div, #vrmenuoperativitysdiv > div,
+#vrmenubookingdiv > div, #vrmenuglobaldiv > div, #vrmenutakeawaydiv > div {
+	font-size: 16px;
+	color:#666;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 61px;
+	margin: -30px 0px 0px -60px;
+	padding: 0 0 10px 65px;
+	line-height: 86px;
+}
+#vrmenurestaurantdiv {
+	border:5px solid #FA5194;
+}
+#vrmenuoperativitysdiv {
+	border:5px solid #FFCC00;
+}
+#vrmenubookingdiv {
+	border:5px solid #3FAB01;
+}
+#vrmenuglobaldiv {
+	border:5px solid #70A8FF;
+}
+#vrmenutakeawaydiv {
+	border:5px solid #DA4D4D;
+}
+#vrmenurestaurantdiv #vrmenurestaurantdivtitle {
+	background: url(images/restaurant.png) left top no-repeat;
+}
+#vrmenuoperativitysdiv #vrmenuworksdivtitle {
+	background: url(images/operativity.png) left top no-repeat;
+}
+#vrmenubookingdiv #vrmenubookingdivtitle {
+	background: url(images/booking.png) left top no-repeat;
+}
+#vrmenuglobaldiv #vrmenuglobaldivtitle {
+	background: url(images/global.png) left top no-repeat;
+}
+#vrmenutakeawaydiv #vrmenutakeawaydivtitle {
+	background: url(images/takeaway.png) left top no-repeat;
+}
+.vrtoccurrency {
+	background: #fff url(images/sharedtable.png) 4px center no-repeat;
+	height: 17px;
+	box-shadow: 2px 2px 1px #666;
+	-moz-box-shadow: 2px 2px 1px #666;
+	-webkit-box-shadow: 2px 2px 1px #666;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	text-align: left;
+	padding: 3px 10px 0 24px;
+	font-size: 11px;
+	color:#333;
+}
+.vrtcapacity{
+	background: #fff;
+	height: 11px;
+	box-shadow: 2px 2px 1px #666;
+	-moz-box-shadow: 2px 2px 1px #666;
+	-webkit-box-shadow: 2px 2px 1px #666;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	text-align: left;
+	padding: 4px 10px 6px;
+	font-size: 11px;
+	color:#333;
+}
+.vrtkmenuaddentrybutton, .vrmenuaddsectionlink {
+	background-color: #008200;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#fff !important;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 0 0 5px;
+	padding: 8px 15px 8px 15px;
+	cursor: pointer;
+}
+
+.vrdashfilterdiv,
+#vrdashboardtabright,
+#vrtkdashboardtabright {
+	width: 100%;
+	display: inline-block;
+	margin: 0 0 15px 0;
+}
+.vrdashboardhead {
+	color: #3787FF;
+	font-size: 14px;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.vrdashfilterdiv .vrdashboardhead {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.vrdashfiltersp .vrdashboardhead, .vrdashfiltersp .vrdatefilter, .vrdashfiltersp .calendar {
+	float: left;
+}
+
+.vr-sp-image {
+	margin-bottom: 5px;
+}
+.vr-dash-roomcont-table {
+	overflow: hidden; 
+	overflow-x: scroll;
+}
+
+/* restaurant */
+.vr-incoming-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.vr-incoming-table th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 12px 15px;
+}
+.vr-incoming-table td {
+	color: #669;
+	border-top:1px solid #e8edff;
+	padding: 10px 15px;
+}
+.vrdash-details-row td {
+	border-top: 0;
+}
+.vr-incoming-table tr:hover td{
+	color: #339;
+	background: #eff2ff;
+}
+/* takeaway */
+#vrtkdashboardtableft td, #vrtkdashboardtabright td {
+	padding: 3px 0;
+}
+/* restaurant */
+.vr-incoming-table th.vrdashtabtitle {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 5px;
+}
+/* takeaway */
+#vrtkdashboardtableft th.vrdashtabtitle, #vrtkdashboardtabright th.vrdashtabtitle {
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0 5px;
+	text-transform: uppercase;
+}
+.vrreservationstatusconfirmed, .vrreservationstatuspending, .vrreservationstatusremoved, .vrreservationstatuscancelled {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.vrreservationstatuscancelled {
+	color: #f01b17 !important;
+}
+.vrreservationstatusconfirmed {
+	color:#008000 !important;
+}
+.vrreservationstatusremoved {
+	color:#990000 !important;
+}
+.vrreservationstatuspending {
+	color:#FF7000 !important;
+}
+#vrmapinputsdiv {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+#vrselectedroomdiv {
+	float: left;
+	margin: 8px 0 0 0;
+	display: inline-block;
+}
+#vrselectedroomdiv, #vrsearchinputdiv {
+	border:1px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+	background: #eee;
+}
+#vrsearchinputdiv {
+	display: inline-block;
+	float: right;
+	margin: 0px 15px 0 0;
+}
+#vrdatefilterdiv, #vrselecthoursdiv, #vrselectpeoplediv, #vrsubmitfinddiv {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+#vrdatefilterdiv img {
+	float: right;
+}
+#vrsubmitfind {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border:1px solid #999;
+	background: #666;
+	padding: 3px 8px;
+	font-size: 12px;
+	cursor: pointer;
+	color: #fff;
+}
+#vrparserscrollprev {
+	overflow-x:hidden;
+	overflow-y:auto;
+	height: 250px;
+}
+#vrparserpreviewtop, #vrparserpreviewbody, #vrparserpreviewbottom {
+	margin:0;
+	padding: 0;
+}
+#vrparserpreviewbody {
+	background-repeat:repeat-y !important;
+}
+#vrparserprevtable {
+	margin: 0 auto;
+	width: 88%;
+}
+#vrparserprevtable .vrtdparseracts {
+	width: 15%;
+}
+#vrparserprevtable .vrrowremove,
+#vrparserprevtable .vrrowshiftup,
+#vrparserprevtable .vrrowshiftdown {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0 2px 0 0;
+}
+#vrparserprevtable .vrrowremove {
+	background: url(images/delete.png) no-repeat;
+}
+#vrparserprevtable .vrrowshiftup {
+	background: url(images/up.png) no-repeat;
+}
+#vrparserprevtable .vrrowshiftdown {
+	background: url(images/down.png) no-repeat;
+}
+.vrdayrowremove {
+	width: 16px;
+	height: 16px;
+	background: url(images/delete.png) no-repeat;
+	display: inline-block;
+}
+body.contentpane {
+	margin: 0;
+	padding: 0;
+}
+#vrparserpreviewtop, #vrparserpreviewbody, #vrparserpreviewbottom {
+	margin: 0 auto;
+}
+.vrtkmenuentrydiv {
+	display: inline-block;
+	width: 50%;
+	padding: 10px;
+	border:1px solid #ccc;
+	background: #f2f2f2;
+	border-radius: 4px;
+}
+.vrtkmenuentrydiv div {
+	padding: 3px 0;
+}
+.vrtkmenuentrydiv .vrtkmenuremovebutton, .vrmenusecremovelink {
+	float: right;
+}
+.vrtkmenuentrydiv .vrtkmenuremovebutton,
+.vrtk-entry-var .vrtkmenuremovebutton,
+.vrtk-topping-row .vrtkmenuremovebutton,
+.vrmenusecremovelink,
+.vrmenuprodremovelink {
+	background: url(images/trash.png) 10px 0 no-repeat;
+	border:0;
+	padding: 2px 10px 2px 15px;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+.vrtkmenuentrydiv .vrtkmenuremovebutton:hover,
+.vrmenuprodremovelink:hover {
+	opacity: 0.70;
+}
+.vrtkmenu-edit-bottombox .vrtkmenubuildbutton {
+	background: url(images/build.png) no-repeat;
+	border:0;
+	padding: 2px 10px 2px 5px;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	float: right;
+}
+.vrtk-entryvar-sortbox, .vrtk-topping-sortbox {
+	background: url(images/sort-dots.png) center center no-repeat;
+	width: 3px;
+	height: 13px;
+	display: inline-block;
+	float: left;
+	margin: 8px 7px 0;
+	cursor: all-scroll;
+}
+.vrtkmenu-edit-bottombox .vrtkmenubuildbutton:hover,
+.vrtkmenu-sort-bottombox:hover, .vrtk-group-sortbox:hover, 
+.vrtk-entryvar-sortbox:hover, .vrtk-topping-sortbox:hover {
+	opacity: 0.70;
+}
+
+.vrmenusection .vrmenutitle {
+	display: inline-block;
+	cursor: pointer;
+	width: 95%;
+}
+.vrtkmenuentrydiv input, .vrtkmenuentrydiv select, .vrtkmenuentrydiv textarea {
+	padding: 2px;
+	border-radius: 2px;
+}
+
+.vrtkmenuentrydiv .vrtkmenuaddvarbutton, .vrmenuprodaddlink .vraddprodmodlink {
+	background: #666;
+	color: #fff;
+	border:1px solid #333;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 3px 5px;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+	display: inline-block;
+}
+.vrtkmenuentrydiv .vrtkoptionsp .vrtkmenuremovebutton {
+	float: left;
+	margin: 0 7px 0 0;
+}
+.vrtkmenuentrydiv .vrtkoptionsp input {
+	margin: 0 7px 7px 0;
+}
+.vrtkmenuentrydiv .vrtkmenuentryoptionsdiv {
+	margin: 0 0 0 15px;
+}
+.vrtkmenuentryrow {
+	margin-bottom: 5px;	
+}
+.vrtkmenuentrydiv .vrtkmenuentryrowchecksp {
+	margin: 0 0 0 10px;
+}
+.vrtkmenuaddentrybutton {
+	font-size: 14px;
+}
+.vrstatfiltersleftdiv > * {
+	display: inline-block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+.vrstatfiltersdiv {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+.vrstatfilterdssp {
+	display: inline-block;
+}
+.vrstatfiltersrightdiv {
+	float: right;
+}
+.vrstatheader, .vrstattotalinfodiv {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin: 3px 0;
+}
+
+.vrstattotalinfodiv {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.vrstattotalearn {
+	margin-right: 16px;
+}
+
+.vr-stats-chartfilters {
+	width: 100%;
+	height: 40px;
+	margin: 20px 0;
+}
+.vr-stats-chartfilters-input {
+	width: 80%;
+	display: inline-block;
+}
+.vr-stats-chartfilters-submit {
+	width: 19%;
+	text-align: right;
+	display: inline-block;
+}
+
+.vrorderingsavelink {
+	/*width: 16px;*/
+	/*height: 16px;*/
+	display:block;
+	overflow: hidden;
+	/*background: url(./images/filesave.png) no-repeat;*/
+	float: right;
+	margin-right: 8px;
+}
+
+.vrdashrowhighlight {
+	background: #ffeea1 !important;
+}
+
+/* graphics properties */
+
+.vrfuturetable {
+	border: 2px dashed #ccc;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	z-index: 0;
+	padding: 10px;
+} 
+
+.vrgrpropmodal {
+	color:#333;
+	padding: 15px;
+	cursor: default;
+	background: #f6f6f6;
+	box-shadow: 3px 2px 7px #000;
+	box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-moz-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	-webkit-box-shadow: 3px 2px 7px rgba(0,0,0,0.8);
+	border-radius: 10px;-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	position: absolute;
+	text-align: left;
+	font-size: 13px;
+	right: 45px;
+	width: 350px;
+	height: 540px;
+	display: none;
+	z-index: 10000;
+}
+.vrgrpropmodal input {
+	border-radius: 4px;
+	border:1px solid #ddd;
+	padding: 3px;
+	color: #666;
+}
+.vrgrpropmodal .vrgpropmodalsep {
+	margin:8px 0 0 0;
+	padding: 5px 0 0 0;
+	border-top:1px dotted #ccc;
+}
+.vrgrpropmodal .vrgrpropmodalboxbuttonsdiv {
+	margin: 10px 0 0 0; 
+}
+.vrgrpropmodal .vrgrpropmodalboxbuttonsdiv .float-left {
+	float: left;
+}
+.vrgrpropmodal .vrgrpropmodalboxbuttonsdiv .float-right {
+	float: right;
+}
+
+.vrcontwseparator {
+	width: 5px;
+	border-right:3px dashed #ddd;
+	position: absolute;
+}
+.vr-config-head-wrapper {
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 20px 0 0;
+}
+.vr-config-head-wrapper #navigation {
+	display: inline-block;
+	float: left;
+}
+.vr-config-head-wrapper .vre-config-toolbar {
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+}
+#navigation ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 2px;
+}
+#navigation ul li {
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	position: relative;
+}
+#navigation ul li a {
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	padding: 10px 20px;
+	background: #f6f6f6;
+	color: #333;
+	border-bottom: 2px solid #f6f6f6;
+}
+#navigation ul li:last-child a {
+	border-right:0;
+}
+#navigation ul li a:focus {
+	text-decoration: none;
+}
+#navigation ul li a:hover {
+	background: #fff;
+	border-bottom: 2px solid #fff;
+	text-decoration: none;
+}
+#navigation ul .vreconfigtabactive a {
+	background: #fff;
+	border-bottom: 2px solid #962D17;
+	color: #3071a9;
+}
+.vrmenusection {
+	display: inline-block;
+	width: 70%;
+	padding: 10px;
+	border:1px solid #ccc;
+	background: #f2f2f2;
+	border-radius: 4px;
+	margin:5px 0 5px 10px;
+}
+.vrmenuproduct {
+	display: inline-block;
+	width: 100%;
+	margin: 3px 0; 
+}
+.vrmenuproduct .vrmenuprodcurrsp {
+	float: left;
+	margin: 5px 5px 0px 3px;
+}
+.vrmenuproduct input {
+	float: left;
+}
+.vrmenuproduct .vrmenuprodremovelink {
+	margin:3px 0 0 3px; 
+}
+.vrmenusection input, .vrmenusection textarea {
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 4px;
+}
+.vrmenusection textarea {
+	width: 99%;
+	height: 200px;
+	max-width: 99%;
+	max-height: 200px;
+}
+.vrmenusection .vrmenusecpublished {
+	margin: 5px 0; 
+}
+.vrprodsdialog {
+	margin:10px 0 0 0; 
+}
+.vrmenusecimage {
+	border-bottom: 1px dashed #999;
+	padding: 0 0 10px 0;
+	margin: 0 0 5px 0; 
+}
+.vrmenu-section-head {
+	margin: 10px 0 10px 10px;
+	display: inline-block; 
+}
+.vrmenu-section-head .vrmenuheadbutton {
+	border-radius: 4px;
+	padding: 5px 10px;
+	background: #5191CD;
+	color: #fff;
+	font-weight: bold;
+}
+.vrmenu-section-bottom .vrmenuaddsectionlink{
+	margin: 10px 0 10px 10px;
+	padding: 8px 30px 8px 30px;
+	display: inline-block; 
+}
+.vrmenuordcont {
+	width: 70%;
+}
+.vrmenuordblock {
+	width: 35%;
+}
+.vrmenuprevblock {
+	widows: 100%;
+}
+.vrmenuordblock, .vrmenuprevblock {
+	background: #eee;
+	border:1px solid #ddd;
+	border-radius: 5px;
+	margin: 10px 5px;
+	padding: 10px;
+	display: block;
+}
+.vrmenuordblock .vrmenuordsection {
+	display: inline-block;
+	width: 100%;
+}
+.vrmenuordblock .vrmenuordproducts, .vrmenuprevblock .vrmenuprevproducts {
+	display: inline-block;
+	background: #fbfbfb;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid #ddd;
+	width: 95%;
+}
+.vrmenuordblock .vrmenuordprod, .vrmenuprevblock .vrmenuprevproducts .vrmenuprevprod {
+	padding: 8px 0;
+	border-bottom:1px dotted #ddd;
+	font-size: 12px;
+}
+.vrmenuordblock .vrmenuordprod:last-child, .vrmenuprevblock .vrmenuprevproducts .vrmenuprevprod:last-child {
+	border:0;
+}
+.vrmenuprevblock .vrmenuprevproducts .vrmenuprevprodname {
+	float: left;
+}
+.vrmenuprevblock .vrmenuprevproducts .vrmenuprevprodright, .vrmenuprevblock .vrmenuprevsectionright {
+	float: right;
+}
+.vrmenuprevblock .vrmenuprevproducts .vrmenuprevprod {
+	width: 100%;
+	display: inline-block;
+}
+.vrmenuordblock .vrmenuordsectionname, .vrmenuprevblock .vrmenuprevsectionname {
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	margin:0 0 5px;
+	cursor: pointer;
+}
+.vrmenuordblock .vrmenuordsection i {
+	font-size: 18px;
+	margin: 2px 10px 0 0;
+	cursor: pointer;
+	float: left;
+}
+.vrmenuordblock .vrmenuordprod i {
+	font-size: 13px;
+	margin: 3px 10px 0 0;
+	cursor: pointer;
+	float: left;
+}
+.vrmenuordblock .vrmenuordsectionactions, .vrmenuordblock .vrmenuordprodactions {
+	display: inline-block;
+	margin: 0 0 0 5px; 
+}
+.vrmenuordblock .vrmenuordprodactions {
+	float: right;
+}
+.vrmenuordblock .vrmenuordsection > span {
+	display: inline-block;
+}
+.vrmenuordblock .vrmenuordsection .vrmenuordsectionactions {
+	float: right;
+	margin-right: 3px;
+}
+.vrmenuordblock .vrmenuordsectionactions .vrmenuorduparrow, 
+.vrmenuordblock .vrmenuordprodactions .vrmenuorduparrow {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(images/arrow-up.png) left top no-repeat;
+}
+.vrmenuordblock .vrmenuordsectionactions .vrmenuorddownarrow,
+.vrmenuordblock .vrmenuordprodactions .vrmenuorddownarrow {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(images/arrow-down.png) left top no-repeat;
+}
+.vrmenuordblock .vrmenuordsectionactions .vrmenuordsectionval, 
+.vrmenuordblock .vrmenuordprodactions .vrmenuordprodval {
+	border-radius: 4px;
+	border:1px solid #ddd;
+	padding: 3px;
+	float: right;
+	margin: -4px 0 0 5px; 
+}
+.vr-order-status-link {
+	float: right;
+}
+.vrrescodedialog {
+	position: absolute;
+	background: #fff;
+	border-radius: 5px;
+	border:2px solid #ddd;
+	padding: 10px 0 10px;
+	width: 200px;
+	box-shadow: 0 0 2px #ddd;
+	height: 210px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+.vrrescodedialog .vrrescodeblockimage img {
+	width: 20px;
+	margin:0 5px 0 0;
+}
+.vrrescodeblock {
+	width: 100%;
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px 0 5px 5px;
+	border-bottom:1px dotted #ddd;
+	cursor: pointer;
+}
+.vrrescodeblock:hover, .vrcodeblockselected {
+	background: #f6f6f6;
+}
+.vrrescodeblock > div {
+	float: left;
+}
+.vrcodelinkselected {
+	background: #298DC4;
+	border:1px solid #025a8d;
+	padding: 2px 4px;
+	color: #fff !important;
+	border-radius: 3px;
+	display: inline-block;
+}
+.vrrescodelink img {
+	width: 28px;
+	height: auto;
+}
+.vrmenuprodjustadded {
+	border: 1px dashed #5191cd;
+	border-radius: 5px;
+	padding: 5px 3px;
+	width: 96%;
+}
+
+.vrtomodalbox {
+	width: 228px;
+	height: 219px;
+}
+
+.vrtpmodalbox {
+	height: 219px;
+}
+
+.vrtkmenuentrydiv {
+	width: 100%;
+	position: relative;
+}
+.vrtkmenu-edit-bottombox {
+	position: absolute;
+	right: 30px;
+	bottom: 10px;
+}
+.vrtkmenu-sort-bottombox {
+	cursor: all-scroll;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	bottom: 10px;
+	position: absolute;
+	right: 10px;
+	background: url(images/sort-move.png) center center no-repeat;
+}
+.vrtk-group-sortbox {
+	cursor: all-scroll;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	top: 5px;
+	position: absolute;
+	right: 40px;
+	background: url(images/sort-move.png) center center no-repeat;
+}
+.vrtkmenuentrydiv .vrtkoptionsp .vrtkmenuremovebutton {
+	margin: 0 2px 0 0;
+}
+
+.vrdashfiltersp > * {
+	float: left;
+}
+.vrreservationfilterdiv > *, .vrshiftfilterresdiv > * {
+	float: left;
+}
+.vrstatfiltersleftdiv {
+	width:auto;
+	float: left;
+}
+.vrordnumfilterresdiv label {
+	display: inline-block;
+}
+.vrstatfilterdssp, .vrstatfilterdrsp, 
+.vrstatfilterdesp, .vrstatfiltershsp {
+	display: inline-block !important;
+	float: left !important;
+	width: auto !important;
+}
+.vrstatfiltersleftdiv > span > label {
+	display: block;
+	float: none !important;
+}
+.vrstatfilterbuttonsp {
+	display: inline-block !important;
+	float: none !important;
+	width: auto !important;
+	margin: 24px 0 0 0;
+}
+.vrstatfilterbuttonsp input {
+	background: #ccc;
+	border-radius: 5px;
+	border:1px solid #999;
+	color:#333;
+	padding: 3px 5px;
+	font-weight: bold;
+}
+.vrstatfiltergroupbysp > * {
+	display: inline-block; 
+	float: left;
+}
+.vrstatfiltergroupbysp > label {
+	margin: 0 5px 0 5px;
+}
+
+.vrmenusection {
+	display: block;
+}
+#vrmenurestaurantdiv > div, #vrmenuoperativitysdiv > div,
+#vrmenubookingdiv > div, #vrmenuglobaldiv > div, #vrmenutakeawaydiv > div {
+	padding: 0 0 0 65px;
+}
+.vrgrpropmodal {
+	height: 700px;
+}
+.vrmenuordblock {
+	width: 100%;
+}
+
+.vr-file-toolbar {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+.vr-customer-image {
+	float: right;
+	margin-right: 50px;
+	border: 2px solid #999;
+	border-radius: 50%;
+	padding: 2px;
+	width: 48px;
+	height: 48px;
+}
+
+/* dashboard restaurant */
+.vr-dash-roomcont-title {
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 0 0;
+}
+.vr-dash-roomcont-title > div {
+	display: inline-block;
+}
+.vr-dash-roomcont-title .title-left {
+	float: left;
+}
+.vr-dash-roomcont-title .title-right {
+	float: right;
+}
+.vr-dashboard-overview-table {
+	margin-top: 10px;
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+.vr-dashboard-overview-table th {
+	font-size: 14px;
+	color: #039;
+	background: #b9c9fe;
+	padding: 8px;
+}
+.vr-dashboard-overview-table td:first-child {
+	background: #b9c9fe !important;
+	color: #039;
+	font-weight: bold;
+	text-align: center;
+	min-width: 80px;
+}
+.vr-dashboard-overview-table td.first {
+	border-left: 0 !important;
+}
+.vr-dashboard-overview-table td {
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #669;
+	height: 48px;
+	text-align: center;
+	vertical-align: middle;
+}
+.vr-dashboard-overview-table td.first-cell {
+	
+}
+.vr-dashboard-overview-table td.contiguous-cell {
+	border-left: 0 !important;
+}
+.vr-dashboard-overview-table td.green {
+	background: #38c870 !important;
+}
+.vr-dashboard-overview-table td img {
+	width: 30px;
+	height: auto;
+	margin: 9px 0 0;
+}
+.vr-dashboard-overview-table td.orange {
+	background: #e9b82c !important;
+}
+.vr-dashboard-overview-table td.red {
+	background: #e94b37 !important;
+}
+.vr-dashboard-overview-table tbody tr:hover td{
+	background: #d0dafd;
+}
+.vr-dashboard-overview-table a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/* tk menus creation */
+.vradmintable {
+	width: 100%;
+}
+.vrtkmenutr {
+	width: 30%;
+	min-width: 380px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 7px;
+	vertical-align: top;
+}
+.vrtkmenuentrydiv {
+	min-height: 385px;
+}
+.vrtkmenuentrydiv label {
+	display: inline-block;
+}
+.vrtkmenuentrydiv textarea {
+	width: 98%;
+	height: 80px;
+	resize: none;
+}
+
+.vrtkmenu-addentry-box {
+	display: inline-block;
+	width: 30%;
+	height: 385px;
+	border: 2px dashed #ccc;
+	border-radius: 10px;
+	padding: 8px;
+	cursor: pointer;
+	line-height: 385px;
+	text-align: center;
+	font-size: 18px;
+	color: #ccc;
+	text-transform: uppercase;
+}
+.vrtkmenu-addentry-box:hover {
+	border-color: #777;
+	color: #777;
+}
+
+img.vr-opt-tkattr {
+	height: 16px;
+	width: 16px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+/* tk entry management */
+.vrtk-entry-var {
+	margin-bottom: 10px;
+}
+.vrtk-entry-var .vrtk-entry-varsp .vrtkmenuremovebutton {
+	float: right;
+	margin: 2px 7px 0 0;
+}
+
+.vrtk-group-box {
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+.vrtk-group-left, .vrtk-group-right {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+}
+.vrtk-group-right {
+	text-align: center;
+}
+.vrtk-group-box input[type="number"] {
+	text-align: right;
+}
+.vrtk-group-field {
+	margin: 8px 0 8px 0;
+}
+.vrtk-group-field label {
+	display: inline-block;
+	width: 150px; 
+	max-width: 150px;
+	font-weight: bold;
+}
+.vrtk-toppings-choice {
+	margin: 0 0 15px 0;
+}
+.vrtk-topping-row {
+	margin-bottom: 5px;
+}
+.vrtk-topping-row > span {
+	display: table;
+	margin: 0 auto;
+}
+.vrtk-topping-row > span > * {
+	display: inline-block;
+}
+.vrtk-topping-row input {
+	margin: 0 3px;
+}
+.vrtk-topping-row .vrtkmenuremovebutton {
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+}
+.vrtk-group-removebox a {
+	float: right;
+	margin-top: -10px;
+	background: url(images/trash.png) no-repeat;
+	border:0;
+	padding: 2px 2px 2px 0px;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+/* vrtk order cart */
+.vrtk-order-cart-item {
+	padding: 8px 0;
+	border-bottom:1px dotted #666;
+	width: 100%;
+	display: inline-block;
+}
+.vrtk-order-cart-item-left {
+	width: 52%;
+	float: left;
+}
+.vrtk-order-cart-item-left span {
+	display: block;
+}
+.vrtk-order-cart-item-name {
+	font-weight: bold;
+	line-height: 1.3em;
+}
+.vrtk-order-cart-item-varname {
+	font-size: 11px;
+	line-height:1em;
+	padding: 1px 0 0 10px;
+}
+.vrtk-order-cart-item-right {	
+	float: right;
+}
+.vrtk-order-cart-item-right span {
+	display: inline-block;
+	float: left;
+	padding-top:6px;
+}
+.vrtk-order-cart-item-price {
+	padding: 0 0 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+span.vrtk-order-cart-item-remove {
+	padding: 5px 0 0 8px;
+	float: right;
+}
+.vrtk-order-cart-item-remove a {
+	background: url(images/minus20.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.vrtk-addtocart-button {
+	background: #159049 none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	font-size: 16px;
+	padding: 9.9px 18px;
+	width: 100%;
+	text-transform: uppercase;
+}
+.vrtk-addtocart-button:hover {
+	background: #17A152;
+}
+.vrtk-addtocart-button.disabled {
+	background: #8e907f none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	padding: 9.9px 18px;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.vrtk-addtocart-item-success {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #35ba75;
+	background: rgba(150, 255, 210, 0.46);
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* restaurant & takeaway order info basket */
+.vrtk-orderbasket-badge {
+	display: inline-block;
+	width: 40%;
+	padding: 15px 10px;
+	background-color: #3a93ff;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.vrtk-orderbasket-badge a {
+	color: #fff;
+}
+.vrtk-orderbasket-badge:hover {
+	opacity: 0.70;
+}
+.vrtk-orderbasket-badge.large {
+	width: 83.6%;	
+}
+.vrtk-orderbasket-badge.cancelled {
+	background-color: #f01b17;
+	text-transform: uppercase;
+}
+.vrtk-orderbasket-badge.confirmed {
+	background-color: #008000;
+	text-transform: uppercase;
+}
+.vrtk-orderbasket-badge.removed {
+	background-color: #990000;
+	text-transform: uppercase;
+}
+.vrtk-orderbasket-badge.pending {
+	background-color: #FF7000;
+	text-transform: uppercase;
+}
+.vrtk-orderbasket-genericnotes {
+	border: 2px dashed #ccc;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 15px;
+}
+
+/* search bar */
+.vre-config-searchbar {
+	position: fixed;
+	bottom:0;
+	right: 0;
+	width:100%;
+	height:80px;
+	background:#eee;
+	z-index: 100;
+}
+.vre-config-searchbar-results {
+	display: inline-block;
+	float: left;
+	padding: 15px;
+}
+.vre-config-searchbar-gotop {
+	display: inline-block;
+	float: right;
+	padding: 15px;
+}
+.vre-config-searchbar-gotop a {
+	padding: 7px 15px;
+	opacity: 0.8;
+	text-decoration: none;
+	background: #05b;
+	color: #fff;
+}
+.vre-config-searchbar-gotop a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.vre-config-searchbar-stat {
+	margin-right: 10px;
+}
+.vre-config-searchbar-control {
+	margin-right: 5px;
+}
+.vre-config-searchbar-control a {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.vre-orange-badge {
+	background-color: #ee8844 !important;
+}
+
+.vr-btn-toolbar {
+	margin: 10px 0 10px 0;
+	display: inline-block;
+	width: 100%;
+}
+.vrtk-orderbasket-food {
+	margin: 20px 0 0;
+}
+.vrtk-orderbasket-food::first-child {
+	margin: 0;
+}
+.vrtk-orderbasket-food-details {
+	width: 100%;
+	display: inline-block;
+}
+.vrtk-orderbasket-food-details > div {
+	display: inline-block;
+}
+.vrtk-orderbasket-food-details-left {
+	float: left;
+}
+.vrtk-orderbasket-food-details-right {
+	float: right;
+}
+.vrtk-orderbasket-food-details {
+	font-size: 18px;
+}
+.vrtk-orderbasket-food-details-quantity {
+	margin: 0 10px 0 0; 
+}
+.vrtk-orderbasket-food-details-price {
+	min-width: 100px;
+	text-align: right;
+	display: inline-block;
+}
+.vrtk-orderbasket-food-middle, .vrtk-orderbasket-food-notes {
+	margin: 5px 0 5px 10px;
+}
+.vrtk-orderbasket-food-notes {
+	background: #f6f6f6;
+	border:1px solid #eee;
+	padding: 10px;
+}
+.vrtk-orderbasket-food-group-toppings {
+	font-weight: bold;
+}
+
+.vr-incoming-table	img {
+	width: 24px;
+	height: auto;
+}
+.vr-dash-roomcont-title .title-left a,
+.vr-dash-roomcont-title .title-right a {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.vr-order-menusinfo {
+	display: inline-block;
+	width: 100%;
+	font-size: 15px;
+	margin: 10px 0;
+}
+.vr-order-menusinfo > div {
+	float: left;
+}
+.vr-order-menusinfo > div:first-child {
+	width: 450px;
+}
+.vrtk-food-container {
+	margin:10px 0 0; 
+}
+.vrtk-dealfood-row {
+	margin: 5px 0;
+	display: inline-block;
+	width: 100%;
+}
+.vrtk-dealfood-row > * {
+	display: inline-block;
+	float: left;
+	margin: 0 3px;
+}
+.vrtk-dealfood-row > span {
+	padding: 5px 0 0;
+}
+.vrtk-dealfood-trash {
+	background: url(images/trash.png) left center no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	padding: 6px 0 0;
+}
+
+/* Joomla 3.x configuration */
+.vretabview {
+	background: #eee;
+	padding: 20px;
+}
+.config-fieldset {
+	border:1px solid #ddd;
+	margin: 15px 10px;
+}
+.config-fieldset .admintable {
+	background: #fff;
+	margin:0;
+}
+legend.adminlegend {
+	border-bottom: 0;
+	width: auto;
+	padding: 5px;
+	margin-bottom: 10px;
+	line-height: inherit;
+}
+.config-fieldset .config-fieldset-legend {
+	background: #f6f6f6;
+	margin:0;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #444;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+table.admintable td {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 8px;
+}
+table.admintable td.adminparamcol {
+	vertical-align: middle;
+	text-align: right;
+	border-right: 1px solid #ddd;
+	background-color: #f7f7f7;
+}
+.config-left-side {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.config-right-side {
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.config-fieldset table.admintable td {
+	border:0;
+}
+.config-fieldset table.admintable td.adminparamcol {
+	background: transparent;
+	border:0;
+}
+.control-label {
+	max-width: 160px;
+}
+.admintable td .right-label {
+	display: inline-block;
+	vertical-align: middle;
+}
+.admintable td input {
+	margin-bottom: 0 !important;
+}
+
+/* statistic charts */
+.vr-linechart-legend .line-legend {
+	display: inline-block;
+	margin: 10px 0 0;
+	padding: 0;
+	width: 100%;
+}
+.vr-linechart-wrapper .line-legend li {
+	display: inline-block;
+	float: left;
+	margin: 3px 7px;
+}
+.vr-linechart-wrapper .line-legend li > span {
+	display: inline-block;
+	float: left;
+	height: 15px;
+	margin: 0 5px 0 0;
+	width: 15px;
+}
+
+/* tk stocks statistics */
+.vr-stocks-report-content {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 15px 5px 15px 0;
+	min-height: 420px;
+}
+.vr-stocks-report-content-tabs {
+	display: inline-block;
+	margin: 10px 0 15px 0;
+	border: 1px solid #ccc;
+}
+.vr-tab-button {
+	float: left;
+	display: inline-block;
+	font-size: 13px;
+}
+.vr-tab-button a {
+	padding: 10px 20px;
+	background: #fff;
+	color: #333 !important;
+	text-decoration: none !important;
+	font-family: "Roboto", "Century Gothic", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.vr-tab-button a:hover {
+	text-decoration: none !important;
+}
+.vr-tab-button a {
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+.vr-tab-button:last-child a {
+	border-right: 0;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+.vr-tab-button a.active {
+	background: #f6f6f6 none repeat scroll 0 0;
+	box-shadow: 0 0 2px #eee inset;
+	cursor: default;
+}
+
+/* 1.5 admin menu */
+.vre-leftboard-menu {
+	display: block;
+	width: 13%;
+	min-width: 180px;
+	vertical-align: top;
+	background-color: #962d17;
+	margin-right: 15px;
+	float: left;
+}
+@media screen and (max-width : 540px) {
+	.vre-leftboard-menu {
+		width: 100%;
+	}
+}
+.vre-task-wrapper {
+	display: block;
+	float: left;
+	width: 85%;
+}
+.vre-task-wrapper.extended {
+	width: 95%;
+}
+.vre-task-wrapper p {
+	padding: 10px;
+}
+.vre-leftboard-menu .parent .title {
+	cursor: pointer;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	background-color: #962d17;
+}
+.vre-leftboard-menu .parent .title i:first-child {
+	font-size: 16px;
+}
+.vre-leftboard-menu .parent .title.selected {
+	background-color: #e45d34;
+}
+.vre-leftboard-menu .parent .title:not(.selected):hover {
+	background-color: #b5481e;
+}
+.vre-leftboard-menu .parent .title span {
+	width: 73%;
+	display: inline-block;
+	word-wrap: break-word;
+}
+.vre-leftboard-menu .parent i {
+	margin-right: 8px;
+	width: 16px;
+	text-align: center;
+}
+.vre-leftboard-menu .parent i.vre-angle-dir {
+	margin: 0 !important;
+	float: right;
+}
+.vre-leftboard-menu .wrapper {
+	padding: 6px 0;
+	background-color: #510608; /*5d7bab*/
+	display: none;
+}
+.vre-leftboard-menu .wrapper.collapsed {
+	display: block;
+}
+.vre-leftboard-menu .wrapper .item {
+	padding: 5px 0 5px 20px;
+	font-size: 14px;
+}
+.vre-leftboard-menu .wrapper .item a {
+	color: #f9e0dd; /*d6e3f9*/
+}
+.vre-leftboard-menu .wrapper .item a:hover {
+	color: #fff;
+}
+.vre-leftboard-menu .wrapper .item.selected a {
+	color: #fff !important;
+	font-weight: 500;
+}
+.vre-leftboard-menu a {
+	color: #fff;
+	width: 100%;
+	display: block;
+}
+.vre-leftboard-menu a:hover,
+.vre-leftboard-menu a:active,
+.vre-leftboard-menu a:focus {
+	color: #fff !important;
+	text-decoration: none;
+}
+/* custom admin menu section */
+.vre-leftboard-menu .separator-line {
+	border-top: 1px dotted #eee;
+}
+.vre-leftboard-menu .split-box {
+	text-align: right;
+	padding: 6px 10px;
+	font-size: 16px;
+}
+.vre-leftboard-menu .version-box {
+	background-color: #19315c;
+	padding: 6px 10px;
+	font-size: 16px;
+}
+.vre-leftboard-menu .version-box.upd-avail {
+	background-color: #0d620f;
+}
+.vre-leftboard-menu .version-box i.upd-avail {
+	float: right;
+	margin-top: 2px;
+	color: orange;
+}
+/* 1.5 compressed admin menu */
+.vre-leftboard-menu.compressed {
+	min-width: 40px;
+	width: 40px;
+}
+.vre-leftboard-menu.compressed .parent .title span, .vre-leftboard-menu.compressed .parent .title .vre-angle-dir {
+	display: none;
+}
+.vre-leftboard-menu.compressed .parent .wrapper {
+	position: absolute;
+	margin-left: 40px;
+	padding-right: 20px;
+	width: 180px;
+	z-index: 1000;
+}
+.vre-leftboard-menu.compressed .parent .title.collapsed {
+	position: relative;
+	background-color: #b5481e;
+	width: 220px;
+	z-index: 1000;
+}
+.vre-leftboard-menu.compressed .parent .title.selected.collapsed {
+	background-color: #e45d34;
+}
+.vre-leftboard-menu.compressed .parent .title.collapsed span {
+	display: inline-block;
+	margin-left: 16px;
+}
+.vre-leftboard-menu.compressed .split-box {
+	text-align: left;
+}
+.vre-leftboard-menu.compressed .version-box span {
+	display: none;
+}
+
+/* new medias */
+.vr-media-droptarget {
+	padding: 50px 20px;
+	text-align:center;
+	border: 3px dashed	#ddd;
+	border-radius: 15px;
+	color: #BBB;
+	font-weight: bold;
+}
+.vr-media-droptarget.drag-enter {
+	border-color: #2B4;
+}
+
+i.vre-media-preview {
+	font-size: 18px;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+/* new medias progress bar */
+.vr-progressbar {
+	width: 200px;
+	height: 22px;
+	border: 1px solid #ddd;
+	border-radius: 5px; 
+	overflow: hidden;
+	display:inline-block;
+	margin:0px 10px 5px 5px;
+	vertical-align:top;
+}
+.vr-progressbar div {
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+	width: 0;
+	background-color: #05b4ef;
+	border-radius: 3px; 
+}
+.vr-progressbar div.completed {
+	background-color: #0fdc84;
+}
+.vr-progressbar div.aborted {
+	background-color: #dc2f42;
+}
+.vr-progressbar-status:first-child {
+	border-top:1px solid #A9CCD1;
+}
+.vr-progressbar-status {
+	border-bottom:1px solid #A9CCD1;
+	min-height:25px;
+	width:700px;
+	padding:10px 10px 0px 10px;
+	vertical-align:top;
+}
+.vr-progressbar-status:nth-child(odd) {
+	background: #EBEFF0;
+}
+.vr-progressbar-status:nth-child(even) {
+	background: #EFFFF8;
+}
+.vr-progressbar-filename {
+	display:inline-block;
+	vertical-align:top;
+	width:250px;
+}
+.vr-progressbar-filesize {
+	display:inline-block;
+	vertical-align:top;
+	color:#30693D;
+	width:100px;
+	margin-left:10px;
+	margin-right:5px;
+}
+.vr-progressbar-abort {
+	background-color:#A8352F;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;display:inline-block;
+	color:#fff;
+	font-family:arial;font-size:13px;font-weight:normal;
+	padding:4px 15px;
+	cursor:pointer;
+	vertical-align:top;
+}
+.vr-progressbar-info {
+	display:inline-block;
+	vertical-align:top;
+}
+
+/* delivery areas */
+
+#googlemap.gm-fixed {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.vr-delivery-contents .control {
+	margin: 10px 0;
+}
+.vr-delivery-contents .control span {
+	margin-right: 10px;
+}
+.vr-delivery-contents .control span label {
+	display: inline-block !important;
+}
+a.pression.clicked {
+	color: #b00 !important;
+}
+.vr-delivery-contents-wrapper {
+	display: block;
+	border-bottom: 2px dashed #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.vr-polygon-container {
+	max-height: 500px;
+	overflow-y: scroll; 
+}
+.vr-polygon-container input[type=number] {
+	width: 130px !important;
+}
+
+.vr-deliveryarea-legend {
+	width: 98%;
+	background-color: #eee;
+	padding: 7px 10px;
+	text-align: center;
+}
+.vr-deliveryarea-legend span {
+	margin: 0px 15px;
+	white-space: nowrap;
+	line-height: 24px;
+}
+.vr-deliveryarea-legend span i {
+	margin-right: 3px;
+}
+
+/* delivery map */
+
+.vr-map-address-box {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+.vr-map-address-box-response {
+	border: 1px solid rgba(82, 168, 236, 0.9);
+	background: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	border-radius: 3px;
+}
+.vr-map-address-box-response .fail {
+	color: #b00;
+}
+.vr-map-address-box-response .info div {
+	display: inline-block;
+}
+.vr-map-address-box-response .info .data-label {
+	width: 100px;
+}
+.vr-map-address-box-response .info .data-value {
+	font-weight: bold;
+}
+
+/* invoices archive */
+.vr-archive-fileblock {
+	display: inline-block;
+	width: 15%;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+}
+.vr-archive-filename {
+	font-size: 12px;
+	margin: 5px 0 0;
+}
+.vr-archive-fileblock.selected {
+	background-color: rgba(84, 147, 204, 0.23);	
+	border-radius: 5px;
+}
+.vr-archive-year {
+	padding: 10px;
+	width: 95%;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	background-color: #ddd;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+}
+.vr-archive-month {
+	font-size: 18px;
+	padding: 15px 25px;
+	border-bottom: 1px solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.vr-archive-month:hover {
+	background-color: rgba(84, 147, 204, 0.23);	
+}
+
+.vr-archive-main {
+	width: 100%;
+	display: inline-block;
+}
+.vr-archive-main > div {
+	float: left;
+	display: inline-block;
+}
+.vr-archive-main .vr-archive-filestree {
+	width: 20%;
+}
+.vr-archive-main .vr-archive-filestree .root {
+	margin: 20px 0 0;
+	padding: 0;
+	list-style-type: none;
+}
+.vr-archive-main .vr-archive-filestree .root > .year {
+	border-bottom: 1px solid #eee;
+	font-size: 14px;
+	font-weight: bold;
+}
+.vr-archive-main .vr-archive-filestree .root > .year .year-node {
+	cursor: pointer;
+}
+.vr-archive-main .vr-archive-filestree .root > .year > div {
+	position: relative;
+	padding: 4px 0 4px 15px;
+}
+.vr-archive-main .vr-archive-filestree .root > .year > div:before {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 8.7px;
+	border-color: transparent transparent transparent #666;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 6px;
+}
+.vr-archive-main .vr-archive-filestree .root > .year.expanded > div:before {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8.7px 5px 0 5px;
+	border-color: #666 transparent transparent transparent;
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+.vr-archive-main .vr-archive-filestree .root .monthslist {
+	font-weight: normal;
+	font-size: 12px;
+	color: #666;
+	margin: 2px 0 6px 20px;
+	padding:0;
+	list-style-type: none;
+}
+.vr-archive-main .vr-archive-filestree .root .monthslist .month {
+	padding: 2px 2px 2px 7px;
+}
+.vr-archive-main .vr-archive-filestree .root .monthslist a {
+	display: block;
+	color: #666;
+}
+.vr-archive-main .vr-archive-filestree .root .monthslist .picked {
+	background: #eee;
+}
+.vr-archive-main .vr-archive-filespool {
+	width: 80%;
+}
+.vr-archive-footer {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+/* input icon wrapper */
+
+.vr-input-icon-wrapper {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+.vr-input-icon-wrapper input {
+	padding-left: 24px !important;
+}
+.vr-input-icon-wrapper i.fa {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 8px;
+	height: 24px;
+	color: #999;
+}
+
+/* print orders */
+.vr-printer-layout {
+	font-size: 14px !important;
+	font-family: courier !important;
+	margin: 10px;
+}
+.vr-printer-layout .vr-printer-header {
+	margin-bottom: 10px;
+	text-align: center;
+}
+.vr-printer-layout .vr-printer-footer {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.vr-dashed-separator {
+	width: 100%;
+	border-bottom: 2px dashed #aaa;
+	margin: 15px 0;
+}
+
+.tk-print-box {
+	padding: 15px 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+.tk-print-box .tk-field .tk-label {
+	display: inline-block;
+	width: 140px;
+	font-weight: bold;
+}
+.tk-print-box .tk-field .tk-value.order-confirmed {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #006600;
+}
+.tk-print-box .tk-field .tk-value.order-pending {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #D9A300;	
+}
+.tk-print-box .tk-field .tk-value.order-removed {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #B20000;
+}
+.tk-print-box .tk-field .tk-value.order-cancelled {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F01B17;
+}
+
+.tk-item .tk-details .name {
+	display: inline-block;
+	width: 60%;
+	text-align: left;
+	font-weight: bold;
+}
+.tk-item .tk-details .quantity {
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+}
+.tk-item .tk-details .price {
+	display: inline-block;
+	width: 22%;
+	text-align: right;
+}
+.tk-item {
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.tk-item:first-child {
+	padding-top: 0;
+}
+.tk-item:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.tk-item .tk-toppings-cont {
+	padding: 0 20px;
+	font-size: small;
+}
+.tk-item .tk-toppings-cont .tk-toppings-group .title {
+	font-weight: bold;
+}
+.tk-item .tk-toppings-cont .tk-toppings-group .toppings {
+	font-style: italic;
+}
+.tk-item .tk-notes {
+	margin-top: 5px;
+	padding: 5px 10px;
+	font-size: small;
+	border: 1px dashed	#ccc;
+}
+
+.tk-print-box .tk-total-row {
+	text-align: right;
+}
+.tk-print-box .tk-total-row .tk-label {
+	font-weight: bold;
+}
+.tk-print-box .tk-total-row .tk-label.red {
+	color: #900;
+}
+.tk-print-box .tk-total-row .tk-amount {
+	display: inline-block;
+	width: 120px;
+}
+
+/* dashboard */
+
+.vr-dashboard-box {	
+	border: 1px solid #ccc;
+	margin: 5px 5px 15px 0;
+}
+
+.vrdash-refresh-time {
+	float: right;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-style: italic;
+	font-size: larger;
+}
+
+.vrdash-title {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	background: #f6f6f6 none repeat scroll 0 0;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.vrdash-container {
+	padding: 10px;
+}
+.vrdash-tab-head {
+	display: inline-block;
+	margin: 10px 0 15px 0;
+	border: 1px solid #ccc;
+}
+.vrdash-tab-button {
+	float: left;
+	display: inline-block;
+	font-size: 13px;
+}
+.vrdash-tab-button a {
+	padding: 10px 20px;
+	background: #fff;
+	color: #333;
+}
+.vrdash-tab-button a strong {
+	font-size: 18px;
+}
+.vrdash-tab-button a:hover {
+	text-decoration: none !important;
+}
+.vrdash-tab-button a {
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+.vrdash-tab-button:last-child a {
+	border-right: 0;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+}
+.vrdash-tab-button a.active {
+	background: #f6f6f6 none repeat scroll 0 0;
+	box-shadow: 0 0 2px #eee inset;
+	cursor: default;
+}
+
+/* custom fields */
+
+.vr-customf-choose {
+	margin: 8px 0;
+}
+.vr-customf-choose input {
+	margin: 0 5px;
+}
+
+/* api user */
+
+.vr-ips-container {
+	margin-bottom: 15px;
+}
+.vr-ips-container .ip-address {
+	margin-bottom: 10px;
+}
+.vr-ips-container .ip-address .ip-dot {
+	margin: 0 3px;
+	vertical-align: bottom;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.vr-ips-container .ip-address input[type=text] {
+	text-align: center !important;
+}
+
+/* update page */
+
+.vr-box-error {
+	padding: 15px 10px;
+	border: 2px dashed #900;
+	color: #900;
+	font-weight: bolder;
+}
+
+.vr-update-changelog {
+	padding: 0 10px;
+	border: 2px dashed #999;
+}
+.vr-update-changelog h2 {
+	margin-bottom: 25px;
+}
+.vr-update-changelog ul li strong {
+	display: inline-block;
+	width: 220px;
+}
+.vr-update-changelog div.box-separator {
+	border-top: 1px solid #bbb;
+	margin: 20px 0;
+}
+
+/* loading overlay */
+
+.vr-loading-overlay.lock {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(63, 63, 63, 0.80);
+	z-index: 10000;
+}
+.vr-loading-box {
+	background: url('./images/loading.gif');
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.vr-loading-box-message {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	color: #fff;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-weight: bolder;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+}
+
+/* iOS checkbox */
+.switch-ios {
+	display: inline-block;
+}
+.switch-ios .ios-toggle {
+	position: absolute;
+	margin-left: -9999px;
+	visibility: hidden;
+}
+.switch-ios .ios-toggle + label {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.switch-ios input.ios-toggle-round + label {
+	/*padding: 2px;*/
+	/*width: 120px;*/
+	width: 56px;
+	/*height: 60px;*/
+	height: 30px;
+	background-color: #dddddd;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+	border-radius: 60px;
+}
+.switch-ios input.ios-toggle-round + label:before, 
+.switch-ios input.ios-toggle-round + label:after {
+	display: block;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	content: "";
+}
+.switch-ios input.ios-toggle-round + label:before {
+	right: 1px;
+	background-color: #f1f1f1;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	-ms-border-radius: 60px;
+	-o-border-radius: 60px;
+	border-radius: 60px;
+	/*-webkit-transition: background 0.4s;*/
+	-webkit-transition: background 0.3s;
+	/*-moz-transition: background 0.4s;*/
+	-moz-transition: background 0.3s;
+	/*-o-transition: background 0.4s;*/
+	-o-transition: background 0.3s;
+	/*transition: background 0.4s;*/
+	transition: background 0.3s;
+}
+.switch-ios input.ios-toggle-round + label:after {
+	/*width: 58px;*/
+	width: 28px;
+	background-color: #fff;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	/*-webkit-transition: margin 0.4s;*/
+	-webkit-transition: margin 0.3s;
+	/*-moz-transition: margin 0.4s;*/
+	-moz-transition: margin 0.3s;
+	/*-o-transition: margin 0.4s;*/
+	-o-transition: margin 0.3s;
+	/*transition: margin 0.4s;*/
+	transition: margin 0.3s;
+}
+.switch-ios input.ios-toggle-round:checked + label:before {
+	background-color: #38d873;
+}
+.switch-ios input.ios-toggle-round:checked + label:after {
+	/*margin-left: 60px;*/
+	margin-left: 26px;
+}
+
+/* popover */
+
+i.vr-quest-popover {
+	font-size: 14px;
+	vertical-align: top;
+	transform: translateY(50%);
+	margin-left: 10px;
+	color: #999;
+	cursor: pointer;
+}
+i.vr-quest-popover:hover {
+	color: #444;
+}
+
+@media screen and (max-width : 1400px) {
+	.config-left-side, .config-right-side {
+		width: 100%;
+	}
+}
+@media screen and (max-width : 763px) {
+	.vre-task-wrapper {
+		width: 100% !important;
+	}
+}
+@media screen and (max-width : 560px) {
+	#navigation ul li a {
+		padding: 10px 10px;
+	}
+}	
